@@ -1,4 +1,5 @@
 #FOUND IN https://grimhacker.com/2016/01/22/using-bitlocker-to-go-on-fedora-23-dislocker/
+#RUN AS SU
 #Install dislocker
 #Run fdisk -l and find the partition that you want to mount. Ex: sdd1, sdc2, sdb1, ...
 #Run mkdir /mnt/dislocker-container and mkdir /mnt/dislocker
