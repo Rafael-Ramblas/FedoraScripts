@@ -1,1 +1,1 @@
-#Scripts to automate tasks in Fedora
+# Scripts to automate tasks in Fedora
