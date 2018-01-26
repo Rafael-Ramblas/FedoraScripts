@@ -1,0 +1,7 @@
+sudo -i
+modprobe asus_fan
+#max_speed
+echo 255 > /sys/devices/platform/asus_fan/hwmon/hwmon3/pwm1
+#auto
+echo 2 > /sys/devices/platform/asus_fan/hwmon/hwmon3/pwm1
+
