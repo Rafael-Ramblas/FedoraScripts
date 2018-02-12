@@ -1,0 +1,4 @@
+#!/bin/sh
+modprobe asus_fan
+#auto_speed
+echo 2 > /sys/devices/platform/asus_fan/hwmon/hwmon3/pwm1
